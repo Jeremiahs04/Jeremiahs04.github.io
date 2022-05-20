@@ -14,7 +14,7 @@
 			display: block;
 			position: absolute;
 			top: 400px;
-			left: 600px;  /* <--- Change me! */
+			left: 0px;  /* <--- Change me! */
 		}
 		.board{
 			height: 100vh;
@@ -48,7 +48,7 @@
 
 			// moves the Box to a new position on the screen along the X-Axis
 			function moveBoxTo(newPositionX) {
-				box.css("right", newPositionX);
+				box.css("left", newPositionX);
 			}
 
 			// changes the text displayed on the Box
